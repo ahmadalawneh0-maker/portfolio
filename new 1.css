@@ -1,0 +1,53 @@
+body{
+
+font-family: Arial;
+margin:40px;
+background:#f4f4f4;
+
+}
+
+nav{
+
+background:#333;
+padding:10px;
+
+}
+
+nav a{
+
+color:white;
+margin-right:15px;
+text-decoration:none;
+
+}
+
+nav a:hover{
+
+text-decoration:underline;
+
+}
+
+h1,h2,h3{
+
+color:#333;
+
+}
+
+table{
+
+background:white;
+border-collapse:collapse;
+
+}
+
+table th,table td{
+
+padding:10px;
+
+}
+
+img{
+
+border-radius:10px;
+
+}
