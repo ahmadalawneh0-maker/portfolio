@@ -1,20 +1,21 @@
 <html>
 <html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
-<title>Contact Ahmad Alawneh</title>
+<title>Contact Me</title>
 
 <link rel="stylesheet" href="style.css">
 
 <script>
 
-function validateForm(){
+function checkForm(){
 
-let name=document.forms["contactForm"]["fullname"].value;
-let email=document.forms["contactForm"]["email"].value;
-let country=document.forms["contactForm"]["country"].value;
-let comments=document.forms["contactForm"]["comments"].value;
+var name = document.forms["contactForm"]["fullname"].value;
+var email = document.forms["contactForm"]["email"].value;
+var country = document.forms["contactForm"]["country"].value;
+var comments = document.forms["contactForm"]["comments"].value;
 
 if(name=="" || email=="" || country=="" || comments=="")
 {
@@ -22,7 +23,7 @@ alert("Please fill in all fields");
 return false;
 }
 
-alert("Form submitted successfully!");
+alert("Form submitted successfully");
 
 return true;
 
@@ -35,13 +36,13 @@ return true;
 <body>
 
 <nav>
-<a href="index.html">Home</a>
+<a href="index.html">Home</a> |
 <a href="contact.html">Contact Me</a>
 </nav>
 
 <h1>Contact Me</h1>
 
-<form name="contactForm" onsubmit="return validateForm()">
+<form name="contactForm" onsubmit="return checkForm()">
 
 <label>Full Name:</label><br>
 <input type="text" name="fullname"><br><br>
@@ -60,4 +61,5 @@ return true;
 </form>
 
 </body>
+
 </html>
