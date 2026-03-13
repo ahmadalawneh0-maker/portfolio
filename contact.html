@@ -8,28 +8,7 @@
 
 <link rel="stylesheet" href="style.css">
 
-<script>
-
-function checkForm(){
-
-var name = document.forms["contactForm"]["fullname"].value;
-var email = document.forms["contactForm"]["email"].value;
-var country = document.forms["contactForm"]["country"].value;
-var comments = document.forms["contactForm"]["comments"].value;
-
-if(name=="" || email=="" || country=="" || comments=="")
-{
-alert("Please fill in all fields");
-return false;
-}
-
-alert("Form submitted successfully");
-
-return true;
-
-}
-
-</script>
+<script src="script.js"></script>
 
 </head>
 
